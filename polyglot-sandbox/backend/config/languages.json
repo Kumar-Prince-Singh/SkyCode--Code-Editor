@@ -1,0 +1,38 @@
+{
+    "cpp": {
+        "name": "C++",
+        "extension": "cpp",
+        "compile": "g++ main.cpp -o main",
+        "run": "./main",
+        "dockerImage": "sandbox-cpp",
+        "timeout": 10,
+        "memoryLimit": "128m"
+    },
+    "python": {
+        "name": "Python",
+        "extension": "py",
+        "compile": null,
+        "run": "python3 main.py",
+        "dockerImage": "sandbox-python",
+        "timeout": 10,
+        "memoryLimit": "128m"
+    },
+    "java": {
+        "name": "Java",
+        "extension": "java",
+        "compile": "javac Main.java",
+        "run": "java Main",
+        "dockerImage": "sandbox-java",
+        "timeout": 10,
+        "memoryLimit": "256m"
+    },
+    "javascript": {
+        "name": "JavaScript",
+        "extension": "js",
+        "compile": null,
+        "run": "node main.js",
+        "dockerImage": "sandbox-javascript",
+        "timeout": 10,
+        "memoryLimit": "128m"
+    }
+}
